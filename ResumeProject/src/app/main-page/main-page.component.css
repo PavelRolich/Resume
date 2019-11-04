@@ -1,0 +1,80 @@
+.container {
+  width: 100%;
+  height: 100%;
+}
+.container .header-box {
+  height: 40%;
+  width: 100%;
+  position: relative;
+}
+.container .header-box .navigation-box {
+  width: 100%;
+  height: 20%;
+  min-height: 30px;
+  background-color: #171717;
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+  padding: 8px 16px;
+}
+.container .header-box .text-box {
+  width: 100%;
+  height: 80%;
+  background-color: #454545;
+  display: flex;
+  justify-content: center;
+}
+.container .header-box .text-box .text-content {
+  text-align: center;
+}
+.container .header-box .text-box .text-content .text {
+  color: #ffffff;
+}
+.container .header-box .text-box .text-content .text:first-child {
+  font-size: 28px;
+}
+.container .header-box .text-box .text-content .text:last-child {
+  font-size: 20px;
+}
+.container .header-box .img-box .img {
+  border: 3px solid #ffffff;
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  position: absolute;
+  z-index: 100;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .content-box {
+  margin-top: 50px;
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container .content-box .content {
+  height: 100%;
+  width: 80%;
+  box-shadow: 0 0 5px #454545;
+  position: relative;
+}
+.container .content-box .content .content-align {
+  position: absolute;
+  bottom: 0;
+  padding: 8px 16px;
+}
+.container .content-box .content .content-align .link-box {
+  text-align: center;
+}
+.container .content-box .content .content-align .text-box {
+  text-align: center;
+}
+.container .content-box .content .content-align .button-box {
+  text-align: center;
+}
+.container .content-box .content .content-align .button-box .button {
+  text-transform: uppercase;
+  background-color: red;
+  margin: 0 20px;
+}
